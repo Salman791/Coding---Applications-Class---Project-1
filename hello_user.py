@@ -2,6 +2,8 @@
 # The program should ask for the name of the user
 # print("Hello, World!")
 
+print("Please write your name below: ")
+
 user_input_1 = input()
 
 print("Hello, " + str(user_input_1))
