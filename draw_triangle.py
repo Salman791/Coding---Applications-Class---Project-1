@@ -11,9 +11,9 @@
 num = int(input("Enter the number of rows: "))
 for i in range(0,num):
     for j in range(0,num-i-1):
-        print(end=" ")
+        print(end="")
     for j in range(0,i+1):
-        print("*",end=" ")
+        print("*",end="")
     print()
 
 # Solution: https://www.youtube.com/watch?v=k_B-5Aad7EU
