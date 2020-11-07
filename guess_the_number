@@ -1,0 +1,28 @@
+# Write a program that stores a number, and the user has to figure it out.
+# The user can input guesses, after each guess the program would tell one
+# of the following:
+#
+# The stored number is higher
+# The stored number is lower
+# You found the number: 8
+
+import random
+
+number = random.randrange(1,50)
+guess = int(input("Guess the number between 1 and 50: "))
+
+while guess != number:
+    if guess < number:
+        print("The stored number is higher")
+        guess = int(input("Keep guessing the number: "))
+    else:
+        print("The stored number is lower")
+        guess = int(input("Guess the Number: "))
+
+print("You found the number: ", number)
+
+
+
+
+
+
